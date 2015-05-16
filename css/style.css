@@ -1,0 +1,103 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+.container {
+	background-color: #E0C19A;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #1C437E;
+	font-weight: 300;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+h1, h3, h4 {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 56px;
+}
+
+hr {
+	border-top: 2px solid #1C437E;
+}
+
+img {
+	max-width: 100%;
+	margin: auto;
+}
+
+h2 {
+	letter-spacing: 2px;
+	text-align: center;
+}
+h3 {
+	font-size: 32px;
+}
+
+.logo {
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+.portfolio {
+	margin-bottom: 10px;
+}
+
+.portfolio-items {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.accent {
+	background-color: #BEBEBE;
+}
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+	font-size: 20px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-flex;
+	float:right;
+}
+
+li {
+	padding: 5px;
+}
+
+.fancy span {
+	display: inline-block;
+	position: relative;
+}
+
+.fancy span:before, .fancy span:after {
+	content: "";
+	position: absolute;
+	height: 5px;
+	border-bottom: 1px solid #1C437E;
+	border-top: 1px solid #1C437E;
+	top: 0;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.fancy span:before {
+	margin-right: 15px;
+	right: 100%;
+}
+
+.fancy span:after {
+	margin-left: 15px;
+	left: 100%;
+}
+
+.footer {
+	color: #ffffff;
+}
